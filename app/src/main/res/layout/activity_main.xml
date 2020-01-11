@@ -28,15 +28,16 @@
             android:layout_height="wrap_content"
             android:textSize="25sp"
             android:inputType="textPassword"
-            android:text="testPassword"/>
+            android:text="test"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign Up"
+            android:text="Login"
             android:layout_below="@id/password"
             android:textSize="25dp"
             android:textAllCaps="false"
+            android:onClick="loginBtn"
             />
     </LinearLayout>
 </RelativeLayout>

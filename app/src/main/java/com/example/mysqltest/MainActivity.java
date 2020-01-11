@@ -22,5 +22,10 @@ public class MainActivity extends AppCompatActivity {
     public void loginBtn(View view){
         String user = usr.getText().toString();
         String pass = pas.getText().toString();
+
+        background bg = new background(this);
+        bg.execute(user,pass);
+
+
     }
 }
