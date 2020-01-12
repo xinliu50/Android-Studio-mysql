@@ -23,7 +23,6 @@ public class background extends AsyncTask <String, Void, String>{
 
     public background(Context context){
         this.context = context;
-
     }
 
     @Override
